@@ -1,0 +1,52 @@
+.mainPage{
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    gap: 2%;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 22%;
+    width: 90%;
+    background-color: rgb(233, 114, 134);
+}
+
+.mid{
+    display: flex;
+    flex-direction: row;
+    height: 44%;
+    width: 90%;
+    
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 75%;
+    background-color: rgb(228, 6, 43);
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 24%;
+    background-color: rgb(231, 31, 64);
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    height: 22%;
+    width: 90%;
+    background-color: rgb(85, 8, 20);
+}
