@@ -1,0 +1,56 @@
+.main-menu{
+  display: flex;
+  flex-direction: row;
+  
+}
+.logo {
+  flex: 50%;
+}
+
+.menu{
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    color: aqua;
+}
+
+.header-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+body {
+    color: blue;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .flex-item-left {
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 50%;
+  }
+  
+  .flex-item-right {
+    background-color: dodgerblue;
+    padding: 10px;
+    flex: 50%;
+  }
+  

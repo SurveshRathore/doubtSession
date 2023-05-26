@@ -1,0 +1,237 @@
+/* CSS background-color */
+h1{
+    background-color: #00ff33;
+    border-style: dotted;
+}
+
+h2{
+    margin-left: 100px;
+}
+
+/* CSS background-image 
+div{
+    background-image: url("avenger/antman.png");
+}
+*/
+/* CSS background-repeat */
+.para{
+    background-image: url("avenger/black\ panther.png");
+    background-repeat: repeat-x;
+    
+}
+.para2{
+    background-image: url("avenger/black_knight.png");
+    background-repeat: repeat-y;
+    border-style: dashed;
+}
+/* CSS background-attachment */
+.para3{
+    background-image: url("avenger/captain_america.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* CSS background-position */
+.para4{
+    background-image: url('avenger/hawkeye.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    border-style: inset;
+}
+
+h6{
+    border-style: double;
+    border-width: 5px;
+}
+h5{
+    border-style: groove;
+    border-color: #00ff33;
+}
+h4{
+    border-style:inherit;
+}
+
+
+#one{
+    padding: 50px;
+    margin: 20px;
+    border: 6px ridge red;
+    width: 300px;
+    float: left;
+    height: 150px;
+    border-radius: 90px;
+    background: #ff0033;
+}
+
+#two{
+    padding: 50px;
+    margin: 20px;
+    border: 6px ridge red;
+    width: 300px;
+    float: left;
+    height: 150px;
+    border-radius: 25% 10%;
+    background: #bed112;
+}
+
+#three{
+    padding: 50px;
+    margin: 20px;
+    border: 6px ridge red;
+    width: 300px;
+    float: left;
+    height: 150px;
+    border-radius: 35px 10em 90%;
+    background: #3d1fc0;
+}
+
+#four{
+    padding: 50px;
+    margin: 20px;
+    border: 6px ridge red;
+    width: 300px;
+    float: left;
+    height: 150px;
+    border-radius: 50px 50% 50cm 50em;
+    background: #15da9f;
+}
+
+table{
+    border: 2px solid blueviolet;
+    background-color: #bed112;
+    text-align: center;
+    font-size: 20px;
+    width: 80%;
+    height: 50%;
+}
+
+th{
+    border: 5px solid #ec0b47;
+    background-color: #ffbbbb;
+}
+td{
+    border: 5px dashed #aaffbb;
+    background-color: #0fdddd;
+}
+
+#t1{
+    border-collapse: separate;
+}
+#t2{
+    border-collapse: collapse;
+}
+#t3{
+    border-collapse: separate;
+    border-spacing: 45px;
+}
+#t4{
+    border-collapse: separate;
+    border-spacing: 20pt 1em;
+}
+#p1{
+    display: inline;
+}
+#p2{
+    display: inline-block;
+}
+#p3{
+    display: block;
+}
+#p4{
+    display: run-in;
+}
+#p5{
+    display: none;
+}
+
+.hslProp{
+    color: hsl(240, 30%, 12%);
+}
+
+#font1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+#font2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+}
+
+#font3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 200%;
+    font-style: oblique;
+}
+#font4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00ff33;
+    font-size: x-large;
+    
+}
+#font5{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-variant: small-caps;
+}
+#font6{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+#font7{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 5vw;
+}
+#font8{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: 100;
+    font-style: italic;
+    font-variant: small-caps;
+    font-stretch: ultra-condensed;
+}
+#font9{
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+    font-stretch: ultra-condensed;
+
+}
+#font10{
+    font-stretch: ultra-expanded;
+}
+#font11{
+    font-stretch: extra-expanded;
+}
+#font12{
+    font-stretch: semi-condensed;
+}
+
+button {  
+    color:lightgoldenrodyellow;  
+     font-size: 30px;   
+ }   
+ .b1 {   
+     background-color: red;   
+     border:none;  
+ }   
+ .b2 {   
+     background-color: blue;   
+     border:5px brown solid;  
+ }   
+ .b3 {   
+     background-color: yellow;   
+     color:black;  
+     border:5px red groove;  
+ }   
+ .b4{  
+    background-color:orange;  
+    border: 5px red dashed;  
+ }  
+ .b5{  
+    background-color: gray;  
+    border: 5px black dotted;  
+ }  
+ .b6{  
+    background-color: lightblue;  
+    border:5px blue double;       
+ }  
